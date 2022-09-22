@@ -15,7 +15,6 @@ The goal of the first week is to introduce
 * What do we mean by “client” and “server”? How can I implement a simple example to demonstrate their interactions (without using the Socket API)
 * How should I setup my development environment?
 * What is apache maven and how do I use it to build and test my Java library?
-* What is project Lombok and why is it worth using it in this course?
 * What is the difference between git and services like GitHub, GitLab or Bitbucket? What is the difference between using git commands and using a git workflow?
 
 # The introductory example: bartender at your service
