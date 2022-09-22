@@ -138,8 +138,6 @@ Watch the webcasts made by Olivier Liechti: [YouTube playlist](https://www.youtu
 
 * [Apache maven](https://maven.apache.org/) (project page)
 * [Maven in 5 minutes](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html) (tutorial)
-* [Project Lombok]() (project page)
-* [Introduction to Project Lombok](https://projectlombok.org/) (tutorial)
 * [JUnit](https://junit.org/) (project page)
 * [JUnit blog posts](https://www.petrikainulainen.net/junit-5-tutorial/) (tutorials)
 * [Ian Cooper’s talk about TDD](https://www.youtube.com/watch?v=EZ05e7EMOLM) (video)
