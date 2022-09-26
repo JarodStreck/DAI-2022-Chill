@@ -1,7 +1,7 @@
-package Costiil2;
+package ch.heigvd.dai.chill.domain.Costiil2;
 
 import ch.heigvd.dai.chill.domain.Bartender;
-import ch.heigvd.dai.chill.domain.Costiil2.StellaArtois;
+import ch.heigvd.dai.chill.domain.Costiil2.Boxer;
 import ch.heigvd.dai.chill.protocol.OrderRequest;
 import ch.heigvd.dai.chill.protocol.OrderResponse;
 import org.junit.jupiter.api.Test;
@@ -10,22 +10,22 @@ import java.math.BigDecimal;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class StellaArtoisTest {
+class BoxerTest {
 
   @Test
   void thePriceAndNameForPunkIPAShouldBeCorrect() {
-    StellaArtois beer = new StellaArtois();
-    assertEquals(beer.getName(), StellaArtois.NAME);
-    assertEquals(beer.getPrice(), StellaArtois.PRICE);
+    Boxer beer = new Boxer();
+    assertEquals(beer.getName(), Boxer.NAME);
+    assertEquals(beer.getPrice(), Boxer.PRICE);
   }
 
   @Test
-  void aBartenderShouldAcceptAnOrderForStellaArtois() {
+  void aBartenderShouldAcceptAnOrderForPunkIPA() {
     Bartender jane = new Bartender();
-    String productName = "ch.heigvd.dai.chill.domain.Costiil2.StellaArtois";
+    String productName = "ch.heigvd.dai.chill.domain.Costiil2.Boxer";
     OrderRequest request = new OrderRequest(3, productName);
     OrderResponse response = jane.order(request);
-    BigDecimal expectedTotalPrice = StellaArtois.PRICE.multiply(new BigDecimal(3));
+    BigDecimal expectedTotalPrice = Boxer.PRICE.multiply(new BigDecimal(3));
     assertEquals(expectedTotalPrice, response.getTotalPrice());
   }
 

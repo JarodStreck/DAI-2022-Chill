@@ -1,4 +1,4 @@
-package Costiil2;
+package ch.heigvd.dai.chill.domain.Costiil2;
 
 import ch.heigvd.dai.chill.domain.Bartender;
 import ch.heigvd.dai.chill.domain.Costiil2.Estrella;
