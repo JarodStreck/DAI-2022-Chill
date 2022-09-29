@@ -21,7 +21,7 @@ class MortSubiteTest {
   @Test
   void aBartenderShouldAcceptAnOrderForMortSubite() {
     Bartender jane = new Bartender();
-    String productName = "ch.heigvd.dai.chill.domain..gogniat.MortSubite";
+    String productName = "ch.heigvd.dai.chill.domain.gogniat.MortSubite";
     OrderRequest request = new OrderRequest(3, productName);
     OrderResponse response = jane.order(request);
     BigDecimal expectedTotalPrice = MortSubite.PRICE.multiply(new BigDecimal(3));

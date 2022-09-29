@@ -19,9 +19,9 @@ class TroisDamesTest {
   }
 
   @Test
-  void aBartenderShouldAcceptAnOrderForTroisDames() {
+   void aBartenderShouldAcceptAnOrderForTroisDames() {
     Bartender jane = new Bartender();
-    String productName = "ch.heigvd.dai.chill.domain..gogniat.TroisDames";
+    String productName = "ch.heigvd.dai.chill.domain.gogniat.TroisDames";
     OrderRequest request = new OrderRequest(3, productName);
     OrderResponse response = jane.order(request);
     BigDecimal expectedTotalPrice = TroisDames.PRICE.multiply(new BigDecimal(3));
