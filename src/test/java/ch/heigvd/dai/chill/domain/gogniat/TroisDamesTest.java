@@ -12,8 +12,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 class TroisDamesTest {
 
   @Test
-  void thePriceAndNameForPunkIPAShouldBeCorrect() {
-    PunkIPA beer = new TroisDames();
+  void thePriceAndNameForTroisDamesIPAShouldBeCorrect() {
+    TroisDames beer = new TroisDames();
     assertEquals(beer.getName(), TroisDames.NAME);
     assertEquals(beer.getPrice(), TroisDames.PRICE);
   }
@@ -24,7 +24,7 @@ class TroisDamesTest {
     String productName = "ch.heigvd.dai.chill.domain..gogniat.TroisDames";
     OrderRequest request = new OrderRequest(3, productName);
     OrderResponse response = jane.order(request);
-    BigDecimal expectedTotalPrice = PunkIPA.PRICE.multiply(new BigDecimal(3));
+    BigDecimal expectedTotalPrice = TroisDames.PRICE.multiply(new BigDecimal(3));
     assertEquals(expectedTotalPrice, response.getTotalPrice());
   }
 
