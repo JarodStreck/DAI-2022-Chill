@@ -15,7 +15,6 @@ The goal of the first week is to introduce
 * What do we mean by “client” and “server”? How can I implement a simple example to demonstrate their interactions (without using the Socket API)
 * How should I setup my development environment?
 * What is apache maven and how do I use it to build and test my Java library?
-* What is project Lombok and why is it worth using it in this course?
 * What is the difference between git and services like GitHub, GitLab or Bitbucket? What is the difference between using git commands and using a git workflow?
 
 # The introductory example: bartender at your service
@@ -139,8 +138,6 @@ Watch the webcasts made by Olivier Liechti: [YouTube playlist](https://www.youtu
 
 * [Apache maven](https://maven.apache.org/) (project page)
 * [Maven in 5 minutes](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html) (tutorial)
-* [Project Lombok]() (project page)
-* [Introduction to Project Lombok](https://projectlombok.org/) (tutorial)
 * [JUnit](https://junit.org/) (project page)
 * [JUnit blog posts](https://www.petrikainulainen.net/junit-5-tutorial/) (tutorials)
 * [Ian Cooper’s talk about TDD](https://www.youtube.com/watch?v=EZ05e7EMOLM) (video)
